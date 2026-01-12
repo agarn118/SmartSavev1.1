@@ -1,0 +1,117 @@
+================================================================================
+SOBEYS SCRAPER - FINAL QA AUDIT
+================================================================================
+
+Total Products: 120
+
+UPC/GTIN Analysis (external_id field):
+  Unique UPCs: 120
+  Missing UPCs: 0
+  Duplicate UPCs: 0
+
+Query Category Analysis:
+  Unique query_category values: 99
+  Missing query_category: 0
+
+Required Fields Coverage:
+  name: 100.0% (120/120)
+  price: 100.0% (120/120)
+  external_id: 100.0% (120/120)
+  brand: 75.8% (91/120)
+  size_text: 100.0% (120/120)
+  unit_price: 100.0% (120/120)
+  query_category: 100.0% (120/120)
+
+Unit Price Coverage: 120/120 (100.0%)
+
+Price Validation:
+  Valid prices: 120/120
+
+Unit Price Validation:
+  Valid unit prices: 120/120
+
+Currency Distribution:
+  CAD: 120 products
+
+Availability Status:
+  in_stock: 117 products
+  out_of_stock: 3 products
+
+================================================================================
+SAMPLE PRODUCTS (First 3):
+================================================================================
+
+Product 1:
+  Name: Hata Flavoured Ramune Soda Strawberry 200 ml (bottle)
+  Brand: Hata
+  Price: 3.49 CAD
+  Size: 0.605 KG EA
+  Unit Price: 5.77 / KG
+  UPC/GTIN: 490249409014
+  Query Category: whole milk
+  Availability: in_stock
+
+Product 2:
+  Name: Yoplait Yop 1% Drinkable Yogurt Raspberry 200 ml
+  Brand: Yoplait
+  Price: 1.39 CAD
+  Size: 0.211 KG EA
+  Unit Price: 6.59 / KG
+  UPC/GTIN: 056920130280
+  Query Category: yogurt
+  Availability: in_stock
+
+Product 3:
+  Name: Natrel Organic Fat Free  0% Skim Milk  2 L
+  Brand: Natrel
+  Price: 7.79 CAD
+  Size: 2.12 KG EA
+  Unit Price: 3.67 / KG
+  UPC/GTIN: 055872500110
+  Query Category: 2% milk
+  Availability: in_stock
+
+================================================================================
+QUERY CATEGORY DISTRIBUTION (Top 20):
+================================================================================
+  rice: 3 products
+  canned beans: 3 products
+  salmon: 3 products
+  oranges: 3 products
+  potatoes: 3 products
+  whole milk: 2 products
+  canola oil: 2 products
+  ranch dressing: 2 products
+  chicken broth: 2 products
+  juice: 2 products
+  sparkling water: 2 products
+  chicken breast: 2 products
+  carrots: 2 products
+  garlic: 2 products
+  green beans: 2 products
+  paper towels: 2 products
+  yogurt: 1 products
+  2% milk: 1 products
+  almond milk: 1 products
+  soy milk: 1 products
+
+================================================================================
+DEDUPLICATION ANALYSIS:
+================================================================================
+Note: 114 queries were executed, but only 99 unique
+query_category values appear in the final data. This is because
+15 products had UPCs that matched products from other queries.
+During deduplication, these products kept the query_category from
+whichever query was scraped last.
+
+================================================================================
+SUMMARY
+================================================================================
+- Total Products: 120
+- Unique UPCs: 120
+- Duplicate UPCs: 0
+- Unique Query Categories: 99 (out of 114 queries executed)
+- Unit Price Coverage: 100.0%
+- Price Validation Issues: 0
+- Brand Coverage: 75.8%
+- All products in stock: False

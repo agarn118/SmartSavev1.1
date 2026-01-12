@@ -1,0 +1,17 @@
+# Core Dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+numpy>=1.24.0
+httpx>=0.27.0
+
+# Playwright (for Safeway/Sobeys - JavaScript rendering)
+playwright>=1.40.0
+
+# TLS Fingerprint Bypass (for anti-bot evasion)
+tls-client>=1.0.1
+
+# Optional but recommended
+# Uncomment if you want these additional features:
+# pydantic>=2.0.0          # For enhanced data validation
+# python-dotenv>=1.0.0     # For environment variable management

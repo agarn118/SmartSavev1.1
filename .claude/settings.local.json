@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.walmart.ca)",
+      "WebFetch(domain:www.safeway.ca)",
+      "WebFetch(domain:www.realcanadiansuperstore.ca)",
+      "WebFetch(domain:www.sobeys.com)",
+      "WebFetch(domain:www.nofrills.ca)",
+      "WebFetch(domain:www.saveonfoods.com)",
+      "WebFetch(domain:www.coopathome.ca)",
+      "Bash(python:*)",
+      "Bash(dir /b \"C:\\\\Users\\\\ashto\\\\Desktop\\\\First_claude\\\\test_claude\")",
+      "Bash(ls:*)",
+      "Bash(dir /b \"C:\\\\Users\\\\ashto\\\\Desktop\\\\First_claude\\\\test_claude\\\\*.ps1\")"
+    ]
+  },
+  "outputStyle": "default"
+}

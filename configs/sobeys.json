@@ -1,0 +1,86 @@
+{
+  "site_slug": "sobeys",
+  "store_name": "Sobeys",
+  "base_url": "https://www.sobeys.com",
+  "search_url_pattern": "/en/search",
+  "min_delay_seconds": 5.0,
+  "max_delay_seconds": 8.0,
+  "max_requests_per_minute": 10,
+  "max_retries": 5,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+
+  "stores": [
+    {"id": "0320", "name": "Sobeys Airdrie", "city": "Airdrie", "province": "AB"},
+    {"id": "0315", "name": "Sobeys Shawnessy", "city": "Calgary", "province": "AB"},
+    {"id": "0348", "name": "Sobeys Signal Hill", "city": "Calgary", "province": "AB"},
+    {"id": "0325", "name": "Sobeys Crowfoot", "city": "Calgary", "province": "AB"},
+    {"id": "0333", "name": "Sobeys Dalhousie", "city": "Calgary", "province": "AB"},
+    {"id": "0521", "name": "Sobeys Riverbend", "city": "Edmonton", "province": "AB"},
+    {"id": "0515", "name": "Sobeys Summerside", "city": "Edmonton", "province": "AB"},
+    {"id": "0530", "name": "Sobeys Windermere", "city": "Edmonton", "province": "AB"}
+  ],
+
+  "proxy": {
+    "enabled": true,
+    "source": "env",
+    "env_var": "SOBEYS_PROXY_URL",
+    "rotation_strategy": "round_robin",
+    "max_failures_before_rotate": 3
+  },
+
+  "tls": {
+    "client_identifier": "chrome_120",
+    "fallback_identifiers": ["chrome_119", "chrome_118", "firefox_120", "safari_ios_17_0"],
+    "randomize_fingerprint": true
+  },
+
+  "error_handling": {
+    "max_retries": 5,
+    "retry_on_status_codes": [403, 429, 500, 502, 503, 504],
+    "rotate_proxy_on_403": true,
+    "rotate_fingerprint_on_403": true,
+    "backoff_base": 2.0,
+    "max_backoff_seconds": 300,
+    "jitter_range": [0.8, 1.2]
+  },
+
+  "store_id": null,
+  "store_postal_code": "T4B 0V7",
+  "store_name_filter": "Airdrie",
+  "store_address_hint": "65 MacKenzie Way SW",
+  "use_google_navigation": true,
+  "google_search_term": "sobeys",
+
+  "example_urls": {
+    "category": "/en/aisles/dairy-eggs",
+    "search": "/en/search?q=milk",
+    "product": "/en/product/milk-2-4l/12345"
+  },
+
+  "notes": [
+    "Enhanced API scraper using Algolia with TLS fingerprint bypass",
+    "Rotates through 8 Alberta Sobeys stores for regional pricing",
+    "Uses tls-client for JA3/JA4 fingerprint impersonation",
+    "Supports residential proxy rotation via SOBEYS_PROXY_URL env var",
+    "Store IDs should be verified from Sobeys website network traffic",
+    "Scene+ loyalty integration"
+  ],
+
+  "stealth_features": {
+    "tls_fingerprinting": "Uses tls-client to impersonate Chrome/Firefox TLS fingerprints",
+    "proxy_rotation": "Rotates through residential proxies on failures",
+    "fingerprint_rotation": "Rotates browser fingerprint on 403 errors",
+    "header_ordering": "Orders HTTP headers to match real browser patterns",
+    "adaptive_backoff": "Exponential backoff with jitter on rate limits"
+  },
+
+  "store_selection": {
+    "info": "Store IDs can be found by inspecting network traffic when selecting a store",
+    "province_filter": "AB",
+    "configured_stores": "8 Alberta locations (Calgary, Edmonton, Airdrie, St. Albert)",
+    "geolocation": {
+      "latitude": 51.2938,
+      "longitude": -113.9918
+    }
+  }
+}

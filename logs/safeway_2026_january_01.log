@@ -1,0 +1,342 @@
+2026-01-01 19:26:49 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 19:26:49 - root - INFO - ============================================================
+2026-01-01 19:26:49 - root - INFO - Starting scraper for: safeway
+2026-01-01 19:26:49 - root - INFO - ============================================================
+2026-01-01 19:26:49 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 19:26:49 - root - INFO - Searching for: milk
+2026-01-01 19:26:55 - root - INFO - Algolia returned 48 hits for 'milk' (page 1)
+2026-01-01 19:26:55 - root - INFO - Batch saved 5 records
+2026-01-01 19:26:55 - root - INFO - Algolia page 1: Saved 5/48 products
+2026-01-01 19:27:04 - root - INFO - Algolia returned 48 hits for 'milk' (page 2)
+2026-01-01 19:27:04 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 19:27:13 - root - INFO - Algolia returned 48 hits for 'milk' (page 3)
+2026-01-01 19:27:13 - root - INFO - Algolia page 3: Saved 0/48 products
+2026-01-01 19:27:21 - root - INFO - Algolia returned 48 hits for 'milk' (page 4)
+2026-01-01 19:27:21 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 19:27:29 - root - INFO - Algolia returned 48 hits for 'milk' (page 5)
+2026-01-01 19:27:29 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 19:27:36 - root - INFO - Algolia returned 48 hits for 'milk' (page 6)
+2026-01-01 19:27:36 - root - INFO - Algolia page 6: Saved 0/48 products
+2026-01-01 19:27:44 - root - INFO - Algolia returned 48 hits for 'milk' (page 7)
+2026-01-01 19:27:44 - root - INFO - Algolia page 7: Saved 0/48 products
+2026-01-01 19:27:54 - root - INFO - Algolia returned 48 hits for 'milk' (page 8)
+2026-01-01 19:27:54 - root - INFO - Batch saved 1 records
+2026-01-01 19:27:54 - root - INFO - Algolia page 8: Saved 1/48 products
+2026-01-01 19:28:04 - root - INFO - Algolia returned 48 hits for 'milk' (page 9)
+2026-01-01 19:28:04 - root - INFO - Batch saved 1 records
+2026-01-01 19:28:04 - root - INFO - Algolia page 9: Saved 1/48 products
+2026-01-01 19:28:12 - root - INFO - Algolia returned 48 hits for 'milk' (page 10)
+2026-01-01 19:28:12 - root - INFO - Algolia page 10: Saved 0/48 products
+2026-01-01 19:28:12 - root - INFO - Reached max_pages limit (10)
+2026-01-01 19:28:12 - root - INFO - Scraped 7 products from search results
+2026-01-01 19:28:12 - root - INFO - ============================================================
+2026-01-01 19:28:12 - root - INFO - SCRAPING STATISTICS
+2026-01-01 19:28:12 - root - INFO - ============================================================
+2026-01-01 19:28:12 - root - INFO - total_scraped: 7
+2026-01-01 19:28:12 - root - INFO - duplicates_skipped: 473
+2026-01-01 19:28:12 - root - INFO - invalid_records: 0
+2026-01-01 19:28:12 - root - INFO - pages_processed: 10
+2026-01-01 19:28:12 - root - INFO - errors: 0
+2026-01-01 19:28:12 - root - INFO - ============================================================
+2026-01-01 19:28:12 - root - INFO - ============================================================
+2026-01-01 19:28:12 - root - INFO - Scraping completed successfully
+2026-01-01 19:28:12 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\safeway\safeway_products.jsonl
+2026-01-01 19:28:12 - root - INFO - ============================================================
+2026-01-01 19:28:12 - root - INFO - Browser closed
+2026-01-01 22:01:24 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:01:24 - root - INFO - ============================================================
+2026-01-01 22:01:24 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:01:24 - root - INFO - ============================================================
+2026-01-01 22:01:24 - root - INFO - Checkpoint cleared: C:\Users\ashto\Desktop\First_claude\test_claude\checkpoints\safeway_checkpoint.json
+2026-01-01 22:01:24 - root - INFO - Checkpoint cleared
+2026-01-01 22:01:24 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:01:24 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:01:24 - root - INFO - Searching for: milk
+2026-01-01 22:01:30 - root - INFO - Algolia returned 48 hits for 'milk' (page 1)
+2026-01-01 22:01:30 - root - INFO - Batch saved 5 records
+2026-01-01 22:01:30 - root - INFO - Algolia page 1: Saved 5/48 products
+2026-01-01 22:01:39 - root - INFO - Algolia returned 48 hits for 'milk' (page 2)
+2026-01-01 22:01:39 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:01:47 - root - INFO - Algolia returned 48 hits for 'milk' (page 3)
+2026-01-01 22:01:47 - root - INFO - Batch saved 1 records
+2026-01-01 22:01:47 - root - INFO - Algolia page 3: Saved 1/48 products
+2026-01-01 22:01:55 - root - INFO - Algolia returned 48 hits for 'milk' (page 4)
+2026-01-01 22:01:55 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 22:02:03 - root - INFO - Algolia returned 48 hits for 'milk' (page 5)
+2026-01-01 22:02:03 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 22:02:12 - root - INFO - Algolia returned 48 hits for 'milk' (page 6)
+2026-01-01 22:02:12 - root - INFO - Algolia page 6: Saved 0/48 products
+2026-01-01 22:02:21 - root - INFO - Algolia returned 48 hits for 'milk' (page 7)
+2026-01-01 22:02:21 - root - INFO - Algolia page 7: Saved 0/48 products
+2026-01-01 22:02:28 - root - INFO - Algolia returned 48 hits for 'milk' (page 8)
+2026-01-01 22:02:28 - root - INFO - Algolia page 8: Saved 0/48 products
+2026-01-01 22:02:35 - root - INFO - Algolia returned 48 hits for 'milk' (page 9)
+2026-01-01 22:02:35 - root - INFO - Algolia page 9: Saved 0/48 products
+2026-01-01 22:02:43 - root - INFO - Algolia returned 48 hits for 'milk' (page 10)
+2026-01-01 22:02:43 - root - INFO - Algolia page 10: Saved 0/48 products
+2026-01-01 22:02:43 - root - INFO - Reached max_pages limit (10)
+2026-01-01 22:02:43 - root - INFO - Scraped 6 products from search results
+2026-01-01 22:02:43 - root - INFO - ============================================================
+2026-01-01 22:02:43 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:02:43 - root - INFO - ============================================================
+2026-01-01 22:02:43 - root - INFO - total_scraped: 6
+2026-01-01 22:02:43 - root - INFO - duplicates_skipped: 474
+2026-01-01 22:02:43 - root - INFO - invalid_records: 0
+2026-01-01 22:02:43 - root - INFO - pages_processed: 10
+2026-01-01 22:02:43 - root - INFO - errors: 0
+2026-01-01 22:02:43 - root - INFO - ============================================================
+2026-01-01 22:02:43 - root - INFO - ============================================================
+2026-01-01 22:02:43 - root - INFO - Scraping completed successfully
+2026-01-01 22:02:43 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\safeway\safeway_products.jsonl
+2026-01-01 22:02:43 - root - INFO - ============================================================
+2026-01-01 22:02:43 - root - INFO - Browser closed
+2026-01-01 22:12:51 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:12:51 - root - INFO - ============================================================
+2026-01-01 22:12:51 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:12:51 - root - INFO - ============================================================
+2026-01-01 22:12:51 - root - INFO - Checkpoint cleared: C:\Users\ashto\Desktop\First_claude\test_claude\checkpoints\safeway_checkpoint.json
+2026-01-01 22:12:51 - root - INFO - Checkpoint cleared
+2026-01-01 22:12:51 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:12:51 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:12:51 - root - INFO - Searching for: milk
+2026-01-01 22:12:57 - root - INFO - Algolia returned 48 hits for 'milk' (page 1)
+2026-01-01 22:12:57 - root - INFO - Batch saved 1 records
+2026-01-01 22:12:57 - root - INFO - Algolia page 1: Saved 1/48 products
+2026-01-01 22:13:05 - root - INFO - Algolia returned 48 hits for 'milk' (page 2)
+2026-01-01 22:13:05 - root - INFO - Batch saved 1 records
+2026-01-01 22:13:05 - root - INFO - Algolia page 2: Saved 1/48 products
+2026-01-01 22:13:12 - root - INFO - Algolia returned 48 hits for 'milk' (page 3)
+2026-01-01 22:13:12 - root - INFO - Algolia page 3: Saved 0/48 products
+2026-01-01 22:13:22 - root - INFO - Algolia returned 48 hits for 'milk' (page 4)
+2026-01-01 22:13:22 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 22:13:29 - root - INFO - Algolia returned 48 hits for 'milk' (page 5)
+2026-01-01 22:13:29 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 22:13:36 - root - INFO - Algolia returned 48 hits for 'milk' (page 6)
+2026-01-01 22:13:36 - root - INFO - Algolia page 6: Saved 0/48 products
+2026-01-01 22:13:45 - root - INFO - Algolia returned 48 hits for 'milk' (page 7)
+2026-01-01 22:13:45 - root - INFO - Algolia page 7: Saved 0/48 products
+2026-01-01 22:14:26 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:14:26 - root - INFO - ============================================================
+2026-01-01 22:14:26 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:14:26 - root - INFO - ============================================================
+2026-01-01 22:14:26 - root - INFO - Checkpoint cleared
+2026-01-01 22:14:26 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:14:26 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:14:26 - root - INFO - Searching for: milk
+2026-01-01 22:14:34 - root - INFO - Algolia returned 48 hits for 'milk' (page 1)
+2026-01-01 22:14:34 - root - INFO - Batch saved 5 records
+2026-01-01 22:14:34 - root - INFO - Algolia page 1: Saved 5/48 products
+2026-01-01 22:14:44 - root - INFO - Algolia returned 48 hits for 'milk' (page 2)
+2026-01-01 22:14:44 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:14:49 - root - WARNING - Scraping interrupted by user
+2026-01-01 22:14:49 - root - INFO - ============================================================
+2026-01-01 22:14:49 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:14:49 - root - INFO - ============================================================
+2026-01-01 22:14:49 - root - INFO - total_scraped: 5
+2026-01-01 22:14:49 - root - INFO - duplicates_skipped: 91
+2026-01-01 22:14:49 - root - INFO - invalid_records: 0
+2026-01-01 22:14:49 - root - INFO - pages_processed: 2
+2026-01-01 22:14:49 - root - INFO - errors: 0
+2026-01-01 22:14:49 - root - INFO - ============================================================
+2026-01-01 22:14:49 - root - INFO - Browser closed
+2026-01-01 22:14:52 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:14:52 - root - INFO - ============================================================
+2026-01-01 22:14:52 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:14:52 - root - INFO - ============================================================
+2026-01-01 22:14:52 - root - INFO - Checkpoint cleared: C:\Users\ashto\Desktop\First_claude\test_claude\checkpoints\safeway_checkpoint.json
+2026-01-01 22:14:52 - root - INFO - Checkpoint cleared
+2026-01-01 22:14:52 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:14:52 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:14:52 - root - INFO - Searching for: milk
+2026-01-01 22:15:00 - root - INFO - Algolia returned 48 hits for 'milk' (page 1)
+2026-01-01 22:15:00 - root - INFO - Batch saved 5 records
+2026-01-01 22:15:00 - root - INFO - Algolia page 1: Saved 5/48 products
+2026-01-01 22:15:08 - root - INFO - Algolia returned 48 hits for 'milk' (page 2)
+2026-01-01 22:15:08 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:15:17 - root - INFO - Algolia returned 48 hits for 'milk' (page 3)
+2026-01-01 22:15:17 - root - INFO - Algolia page 3: Saved 0/48 products
+2026-01-01 22:15:26 - root - INFO - Algolia returned 48 hits for 'milk' (page 4)
+2026-01-01 22:15:26 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 22:15:35 - root - INFO - Algolia returned 48 hits for 'milk' (page 5)
+2026-01-01 22:15:35 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 22:15:43 - root - INFO - Algolia returned 48 hits for 'milk' (page 6)
+2026-01-01 22:15:43 - root - INFO - Algolia page 6: Saved 0/48 products
+2026-01-01 22:15:53 - root - INFO - Algolia returned 48 hits for 'milk' (page 7)
+2026-01-01 22:15:53 - root - INFO - Algolia page 7: Saved 0/48 products
+2026-01-01 22:16:03 - root - INFO - Algolia returned 48 hits for 'milk' (page 8)
+2026-01-01 22:16:03 - root - INFO - Algolia page 8: Saved 0/48 products
+2026-01-01 22:16:11 - root - INFO - Algolia returned 48 hits for 'milk' (page 9)
+2026-01-01 22:16:11 - root - INFO - Algolia page 9: Saved 0/48 products
+2026-01-01 22:16:19 - root - INFO - Algolia returned 48 hits for 'milk' (page 10)
+2026-01-01 22:16:19 - root - INFO - Algolia page 10: Saved 0/48 products
+2026-01-01 22:16:19 - root - INFO - Reached max_pages limit (10)
+2026-01-01 22:16:19 - root - INFO - Scraped 5 products from search results
+2026-01-01 22:16:19 - root - INFO - ============================================================
+2026-01-01 22:16:19 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:16:19 - root - INFO - ============================================================
+2026-01-01 22:16:19 - root - INFO - total_scraped: 5
+2026-01-01 22:16:19 - root - INFO - duplicates_skipped: 475
+2026-01-01 22:16:19 - root - INFO - invalid_records: 0
+2026-01-01 22:16:19 - root - INFO - pages_processed: 10
+2026-01-01 22:16:19 - root - INFO - errors: 0
+2026-01-01 22:16:19 - root - INFO - ============================================================
+2026-01-01 22:16:19 - root - INFO - ============================================================
+2026-01-01 22:16:19 - root - INFO - Scraping completed successfully
+2026-01-01 22:16:19 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\safeway\safeway_products.jsonl
+2026-01-01 22:16:19 - root - INFO - ============================================================
+2026-01-01 22:16:19 - root - INFO - Browser closed
+2026-01-01 22:17:53 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:17:53 - root - INFO - ============================================================
+2026-01-01 22:17:53 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:17:53 - root - INFO - ============================================================
+2026-01-01 22:17:53 - root - INFO - Search mode: query='skim milk', max_pages=10
+2026-01-01 22:17:53 - root - INFO - Searching for: skim milk
+2026-01-01 22:17:59 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 1)
+2026-01-01 22:17:59 - root - INFO - Batch saved 2 records
+2026-01-01 22:17:59 - root - INFO - Algolia page 1: Saved 2/48 products
+2026-01-01 22:18:05 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 2)
+2026-01-01 22:18:05 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:18:15 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 3)
+2026-01-01 22:18:15 - root - INFO - Algolia page 3: Saved 0/48 products
+2026-01-01 22:18:23 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 4)
+2026-01-01 22:18:23 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 22:18:31 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 5)
+2026-01-01 22:18:31 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 22:18:39 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 6)
+2026-01-01 22:18:39 - root - INFO - Algolia page 6: Saved 0/48 products
+2026-01-01 22:18:48 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 7)
+2026-01-01 22:18:48 - root - INFO - Batch saved 1 records
+2026-01-01 22:18:48 - root - INFO - Algolia page 7: Saved 1/48 products
+2026-01-01 22:18:55 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 8)
+2026-01-01 22:18:55 - root - INFO - Algolia page 8: Saved 0/48 products
+2026-01-01 22:19:04 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 9)
+2026-01-01 22:19:04 - root - INFO - Algolia page 9: Saved 0/48 products
+2026-01-01 22:19:13 - root - INFO - Algolia returned 48 hits for 'skim milk' (page 10)
+2026-01-01 22:19:13 - root - INFO - Algolia page 10: Saved 0/48 products
+2026-01-01 22:19:13 - root - INFO - Reached max_pages limit (10)
+2026-01-01 22:19:13 - root - INFO - Scraped 3 products from search results
+2026-01-01 22:19:13 - root - INFO - ============================================================
+2026-01-01 22:19:13 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:19:13 - root - INFO - ============================================================
+2026-01-01 22:19:13 - root - INFO - total_scraped: 3
+2026-01-01 22:19:13 - root - INFO - duplicates_skipped: 477
+2026-01-01 22:19:13 - root - INFO - invalid_records: 0
+2026-01-01 22:19:13 - root - INFO - pages_processed: 10
+2026-01-01 22:19:13 - root - INFO - errors: 0
+2026-01-01 22:19:13 - root - INFO - ============================================================
+2026-01-01 22:19:13 - root - INFO - ============================================================
+2026-01-01 22:19:13 - root - INFO - Scraping completed successfully
+2026-01-01 22:19:13 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\safeway\safeway_products.jsonl
+2026-01-01 22:19:13 - root - INFO - ============================================================
+2026-01-01 22:19:13 - root - INFO - Browser closed
+2026-01-01 22:20:50 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:20:50 - root - INFO - ============================================================
+2026-01-01 22:20:50 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:20:50 - root - INFO - ============================================================
+2026-01-01 22:20:50 - root - INFO - Search mode: query='2% milk', max_pages=10
+2026-01-01 22:20:50 - root - INFO - Searching for: 2% milk
+2026-01-01 22:20:56 - root - INFO - Algolia returned 48 hits for '2% milk' (page 1)
+2026-01-01 22:20:56 - root - INFO - Batch saved 1 records
+2026-01-01 22:20:56 - root - INFO - Algolia page 1: Saved 1/48 products
+2026-01-01 22:21:05 - root - INFO - Algolia returned 48 hits for '2% milk' (page 2)
+2026-01-01 22:21:05 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:21:12 - root - INFO - Algolia returned 48 hits for '2% milk' (page 3)
+2026-01-01 22:21:12 - root - INFO - Algolia page 3: Saved 0/48 products
+2026-01-01 22:21:21 - root - INFO - Algolia returned 48 hits for '2% milk' (page 4)
+2026-01-01 22:21:21 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 22:21:30 - root - INFO - Algolia returned 48 hits for '2% milk' (page 5)
+2026-01-01 22:21:30 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 22:21:37 - root - INFO - Algolia returned 48 hits for '2% milk' (page 6)
+2026-01-01 22:21:37 - root - INFO - Batch saved 1 records
+2026-01-01 22:21:37 - root - INFO - Algolia page 6: Saved 1/48 products
+2026-01-01 22:21:44 - root - INFO - Algolia returned 48 hits for '2% milk' (page 7)
+2026-01-01 22:21:44 - root - INFO - Algolia page 7: Saved 0/48 products
+2026-01-01 22:21:53 - root - INFO - Algolia returned 48 hits for '2% milk' (page 8)
+2026-01-01 22:21:53 - root - INFO - Batch saved 1 records
+2026-01-01 22:21:53 - root - INFO - Algolia page 8: Saved 1/48 products
+2026-01-01 22:22:01 - root - INFO - Algolia returned 48 hits for '2% milk' (page 9)
+2026-01-01 22:22:01 - root - INFO - Batch saved 1 records
+2026-01-01 22:22:01 - root - INFO - Algolia page 9: Saved 1/48 products
+2026-01-01 22:22:10 - root - INFO - Algolia returned 48 hits for '2% milk' (page 10)
+2026-01-01 22:22:10 - root - INFO - Algolia page 10: Saved 0/48 products
+2026-01-01 22:22:10 - root - INFO - Reached max_pages limit (10)
+2026-01-01 22:22:10 - root - INFO - Scraped 4 products from search results
+2026-01-01 22:22:10 - root - INFO - ============================================================
+2026-01-01 22:22:10 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:22:10 - root - INFO - ============================================================
+2026-01-01 22:22:10 - root - INFO - total_scraped: 4
+2026-01-01 22:22:10 - root - INFO - duplicates_skipped: 476
+2026-01-01 22:22:10 - root - INFO - invalid_records: 0
+2026-01-01 22:22:10 - root - INFO - pages_processed: 10
+2026-01-01 22:22:10 - root - INFO - errors: 0
+2026-01-01 22:22:10 - root - INFO - ============================================================
+2026-01-01 22:22:10 - root - INFO - ============================================================
+2026-01-01 22:22:10 - root - INFO - Scraping completed successfully
+2026-01-01 22:22:10 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\safeway\safeway_products.jsonl
+2026-01-01 22:22:10 - root - INFO - ============================================================
+2026-01-01 22:22:10 - root - INFO - Browser closed
+2026-01-01 22:23:55 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:23:55 - root - INFO - ============================================================
+2026-01-01 22:23:55 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:23:55 - root - INFO - ============================================================
+2026-01-01 22:23:55 - root - INFO - Search mode: query='whole milk', max_pages=10
+2026-01-01 22:23:55 - root - INFO - Searching for: whole milk
+2026-01-01 22:24:02 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 1)
+2026-01-01 22:24:02 - root - INFO - Batch saved 1 records
+2026-01-01 22:24:02 - root - INFO - Algolia page 1: Saved 1/48 products
+2026-01-01 22:24:11 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 2)
+2026-01-01 22:24:11 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:24:19 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 3)
+2026-01-01 22:24:19 - root - INFO - Algolia page 3: Saved 0/48 products
+2026-01-01 22:24:29 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 4)
+2026-01-01 22:24:29 - root - INFO - Algolia page 4: Saved 0/48 products
+2026-01-01 22:24:37 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 5)
+2026-01-01 22:24:37 - root - INFO - Algolia page 5: Saved 0/48 products
+2026-01-01 22:24:44 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 6)
+2026-01-01 22:24:44 - root - INFO - Algolia page 6: Saved 0/48 products
+2026-01-01 22:24:53 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 7)
+2026-01-01 22:24:53 - root - INFO - Algolia page 7: Saved 0/48 products
+2026-01-01 22:25:00 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 8)
+2026-01-01 22:25:00 - root - INFO - Algolia page 8: Saved 0/48 products
+2026-01-01 22:25:08 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 9)
+2026-01-01 22:25:08 - root - INFO - Algolia page 9: Saved 0/48 products
+2026-01-01 22:25:16 - root - INFO - Algolia returned 48 hits for 'whole milk' (page 10)
+2026-01-01 22:25:16 - root - INFO - Algolia page 10: Saved 0/48 products
+2026-01-01 22:25:16 - root - INFO - Reached max_pages limit (10)
+2026-01-01 22:25:16 - root - INFO - Scraped 1 products from search results
+2026-01-01 22:25:16 - root - INFO - ============================================================
+2026-01-01 22:25:16 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:25:16 - root - INFO - ============================================================
+2026-01-01 22:25:16 - root - INFO - total_scraped: 1
+2026-01-01 22:25:16 - root - INFO - duplicates_skipped: 479
+2026-01-01 22:25:16 - root - INFO - invalid_records: 0
+2026-01-01 22:25:16 - root - INFO - pages_processed: 10
+2026-01-01 22:25:16 - root - INFO - errors: 0
+2026-01-01 22:25:16 - root - INFO - ============================================================
+2026-01-01 22:25:16 - root - INFO - ============================================================
+2026-01-01 22:25:16 - root - INFO - Scraping completed successfully
+2026-01-01 22:25:16 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\safeway\safeway_products.jsonl
+2026-01-01 22:25:16 - root - INFO - ============================================================
+2026-01-01 22:25:16 - root - INFO - Browser closed
+2026-01-01 22:26:54 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\safeway_2026_january_01.log
+2026-01-01 22:26:54 - root - INFO - ============================================================
+2026-01-01 22:26:54 - root - INFO - Starting scraper for: safeway
+2026-01-01 22:26:54 - root - INFO - ============================================================
+2026-01-01 22:26:54 - root - INFO - Search mode: query='almond milk', max_pages=10
+2026-01-01 22:26:54 - root - INFO - Searching for: almond milk
+2026-01-01 22:27:03 - root - INFO - Algolia returned 48 hits for 'almond milk' (page 1)
+2026-01-01 22:27:03 - root - INFO - Batch saved 1 records
+2026-01-01 22:27:03 - root - INFO - Algolia page 1: Saved 1/48 products
+2026-01-01 22:27:11 - root - INFO - Algolia returned 48 hits for 'almond milk' (page 2)
+2026-01-01 22:27:11 - root - INFO - Algolia page 2: Saved 0/48 products
+2026-01-01 22:27:17 - root - WARNING - Scraping interrupted by user
+2026-01-01 22:27:17 - root - INFO - ============================================================
+2026-01-01 22:27:17 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:27:17 - root - INFO - ============================================================
+2026-01-01 22:27:17 - root - INFO - total_scraped: 1
+2026-01-01 22:27:17 - root - INFO - duplicates_skipped: 95
+2026-01-01 22:27:17 - root - INFO - invalid_records: 0
+2026-01-01 22:27:17 - root - INFO - pages_processed: 2
+2026-01-01 22:27:17 - root - INFO - errors: 0
+2026-01-01 22:27:17 - root - INFO - ============================================================
+2026-01-01 22:27:17 - root - INFO - Browser closed

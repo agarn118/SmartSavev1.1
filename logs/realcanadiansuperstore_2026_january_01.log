@@ -1,0 +1,191 @@
+2026-01-01 19:26:51 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 19:26:51 - root - INFO - ============================================================
+2026-01-01 19:26:51 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 19:26:51 - root - INFO - ============================================================
+2026-01-01 19:26:51 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 19:26:51 - root - INFO - Searching for: milk
+2026-01-01 19:26:51 - root - INFO - Scraping category page 1: /search?search-bar=milk&page=1
+2026-01-01 19:26:59 - root - INFO - Found 15 products in component 0
+2026-01-01 19:26:59 - root - INFO - Found 35 products in component 2
+2026-01-01 19:26:59 - root - INFO - Batch saved 50 records
+2026-01-01 19:26:59 - root - INFO - Page 1: Saved 50/50 products
+2026-01-01 19:26:59 - root - INFO - No more pages available
+2026-01-01 19:26:59 - root - INFO - Scraped 50 products from search results
+2026-01-01 19:26:59 - root - INFO - ============================================================
+2026-01-01 19:26:59 - root - INFO - SCRAPING STATISTICS
+2026-01-01 19:26:59 - root - INFO - ============================================================
+2026-01-01 19:26:59 - root - INFO - total_scraped: 50
+2026-01-01 19:26:59 - root - INFO - duplicates_skipped: 0
+2026-01-01 19:26:59 - root - INFO - invalid_records: 0
+2026-01-01 19:26:59 - root - INFO - pages_processed: 0
+2026-01-01 19:26:59 - root - INFO - errors: 0
+2026-01-01 19:26:59 - root - INFO - ============================================================
+2026-01-01 19:26:59 - root - INFO - ============================================================
+2026-01-01 19:26:59 - root - INFO - Scraping completed successfully
+2026-01-01 19:26:59 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 19:26:59 - root - INFO - ============================================================
+2026-01-01 22:01:26 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 22:01:26 - root - INFO - ============================================================
+2026-01-01 22:01:26 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 22:01:26 - root - INFO - ============================================================
+2026-01-01 22:01:26 - root - INFO - Checkpoint cleared: C:\Users\ashto\Desktop\First_claude\test_claude\checkpoints\realcanadiansuperstore_checkpoint.json
+2026-01-01 22:01:26 - root - INFO - Checkpoint cleared
+2026-01-01 22:01:26 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:01:26 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:01:26 - root - INFO - Searching for: milk
+2026-01-01 22:01:26 - root - INFO - Scraping category page 1: /search?search-bar=milk&page=1
+2026-01-01 22:01:33 - root - INFO - Found 15 products in component 0
+2026-01-01 22:01:33 - root - INFO - Found 35 products in component 2
+2026-01-01 22:01:33 - root - INFO - Batch saved 50 records
+2026-01-01 22:01:33 - root - INFO - Page 1: Saved 50/50 products
+2026-01-01 22:01:33 - root - INFO - No more pages available (hasMore=False)
+2026-01-01 22:01:33 - root - INFO - Scraped 50 products from search results
+2026-01-01 22:01:33 - root - INFO - ============================================================
+2026-01-01 22:01:33 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:01:33 - root - INFO - ============================================================
+2026-01-01 22:01:33 - root - INFO - total_scraped: 50
+2026-01-01 22:01:33 - root - INFO - duplicates_skipped: 0
+2026-01-01 22:01:33 - root - INFO - invalid_records: 0
+2026-01-01 22:01:33 - root - INFO - pages_processed: 1
+2026-01-01 22:01:33 - root - INFO - errors: 0
+2026-01-01 22:01:33 - root - INFO - ============================================================
+2026-01-01 22:01:33 - root - INFO - ============================================================
+2026-01-01 22:01:33 - root - INFO - Scraping completed successfully
+2026-01-01 22:01:33 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 22:01:33 - root - INFO - ============================================================
+2026-01-01 22:12:52 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 22:12:52 - root - INFO - ============================================================
+2026-01-01 22:12:52 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 22:12:52 - root - INFO - ============================================================
+2026-01-01 22:12:52 - root - INFO - Checkpoint cleared: C:\Users\ashto\Desktop\First_claude\test_claude\checkpoints\realcanadiansuperstore_checkpoint.json
+2026-01-01 22:12:52 - root - INFO - Checkpoint cleared
+2026-01-01 22:12:52 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:12:52 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:12:52 - root - INFO - Searching for: milk
+2026-01-01 22:12:52 - root - INFO - Scraping category page 1: /search?search-bar=milk&page=1
+2026-01-01 22:12:59 - root - INFO - Found 15 products in component 0
+2026-01-01 22:12:59 - root - INFO - Found 35 products in component 2
+2026-01-01 22:12:59 - root - INFO - Batch saved 50 records
+2026-01-01 22:12:59 - root - INFO - Page 1: Saved 50/50 products
+2026-01-01 22:12:59 - root - INFO - No more pages available (hasMore=False)
+2026-01-01 22:12:59 - root - INFO - Scraped 50 products from search results
+2026-01-01 22:12:59 - root - INFO - ============================================================
+2026-01-01 22:12:59 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:12:59 - root - INFO - ============================================================
+2026-01-01 22:12:59 - root - INFO - total_scraped: 50
+2026-01-01 22:12:59 - root - INFO - duplicates_skipped: 0
+2026-01-01 22:12:59 - root - INFO - invalid_records: 0
+2026-01-01 22:12:59 - root - INFO - pages_processed: 1
+2026-01-01 22:12:59 - root - INFO - errors: 0
+2026-01-01 22:12:59 - root - INFO - ============================================================
+2026-01-01 22:12:59 - root - INFO - ============================================================
+2026-01-01 22:12:59 - root - INFO - Scraping completed successfully
+2026-01-01 22:12:59 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 22:12:59 - root - INFO - ============================================================
+2026-01-01 22:17:45 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 22:17:45 - root - INFO - ============================================================
+2026-01-01 22:17:45 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 22:17:45 - root - INFO - ============================================================
+2026-01-01 22:17:45 - root - INFO - Checkpoint cleared: C:\Users\ashto\Desktop\First_claude\test_claude\checkpoints\realcanadiansuperstore_checkpoint.json
+2026-01-01 22:17:45 - root - INFO - Checkpoint cleared
+2026-01-01 22:17:45 - root - INFO - Fresh start mode: data files archived and cleared
+2026-01-01 22:17:45 - root - INFO - Search mode: query='milk', max_pages=10
+2026-01-01 22:17:45 - root - INFO - Searching for: milk
+2026-01-01 22:17:45 - root - INFO - Scraping category page 1: /search?search-bar=milk&page=1
+2026-01-01 22:17:50 - root - INFO - Found 15 products in component 0
+2026-01-01 22:17:50 - root - INFO - Found 35 products in component 2
+2026-01-01 22:17:50 - root - INFO - Batch saved 50 records
+2026-01-01 22:17:50 - root - INFO - Page 1: Saved 50/50 products
+2026-01-01 22:17:50 - root - INFO - No more pages available (hasMore=False)
+2026-01-01 22:17:50 - root - INFO - Scraped 50 products from search results
+2026-01-01 22:17:50 - root - INFO - ============================================================
+2026-01-01 22:17:50 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:17:50 - root - INFO - ============================================================
+2026-01-01 22:17:50 - root - INFO - total_scraped: 50
+2026-01-01 22:17:50 - root - INFO - duplicates_skipped: 0
+2026-01-01 22:17:50 - root - INFO - invalid_records: 0
+2026-01-01 22:17:50 - root - INFO - pages_processed: 1
+2026-01-01 22:17:50 - root - INFO - errors: 0
+2026-01-01 22:17:50 - root - INFO - ============================================================
+2026-01-01 22:17:50 - root - INFO - ============================================================
+2026-01-01 22:17:50 - root - INFO - Scraping completed successfully
+2026-01-01 22:17:50 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 22:17:50 - root - INFO - ============================================================
+2026-01-01 22:20:42 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 22:20:42 - root - INFO - ============================================================
+2026-01-01 22:20:42 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 22:20:42 - root - INFO - ============================================================
+2026-01-01 22:20:42 - root - INFO - Search mode: query='skim milk', max_pages=10
+2026-01-01 22:20:42 - root - INFO - Searching for: skim milk
+2026-01-01 22:20:42 - root - INFO - Scraping category page 1: /search?search-bar=skim milk&page=1
+2026-01-01 22:20:47 - root - INFO - Found 15 products in component 0
+2026-01-01 22:20:47 - root - INFO - Found 36 products in component 2
+2026-01-01 22:20:47 - root - INFO - Batch saved 51 records
+2026-01-01 22:20:47 - root - INFO - Page 1: Saved 51/51 products
+2026-01-01 22:20:47 - root - INFO - No more pages available (hasMore=False)
+2026-01-01 22:20:47 - root - INFO - Scraped 51 products from search results
+2026-01-01 22:20:47 - root - INFO - ============================================================
+2026-01-01 22:20:47 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:20:47 - root - INFO - ============================================================
+2026-01-01 22:20:47 - root - INFO - total_scraped: 51
+2026-01-01 22:20:47 - root - INFO - duplicates_skipped: 0
+2026-01-01 22:20:47 - root - INFO - invalid_records: 0
+2026-01-01 22:20:47 - root - INFO - pages_processed: 1
+2026-01-01 22:20:47 - root - INFO - errors: 0
+2026-01-01 22:20:47 - root - INFO - ============================================================
+2026-01-01 22:20:47 - root - INFO - ============================================================
+2026-01-01 22:20:47 - root - INFO - Scraping completed successfully
+2026-01-01 22:20:47 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 22:20:47 - root - INFO - ============================================================
+2026-01-01 22:23:47 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 22:23:47 - root - INFO - ============================================================
+2026-01-01 22:23:47 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 22:23:47 - root - INFO - ============================================================
+2026-01-01 22:23:47 - root - INFO - Search mode: query='2% milk', max_pages=10
+2026-01-01 22:23:47 - root - INFO - Searching for: 2% milk
+2026-01-01 22:23:47 - root - INFO - Scraping category page 1: /search?search-bar=2% milk&page=1
+2026-01-01 22:23:53 - root - INFO - Found 15 products in component 0
+2026-01-01 22:23:53 - root - INFO - Found 36 products in component 2
+2026-01-01 22:23:53 - root - INFO - Batch saved 51 records
+2026-01-01 22:23:53 - root - INFO - Page 1: Saved 51/51 products
+2026-01-01 22:23:53 - root - INFO - No more pages available (hasMore=False)
+2026-01-01 22:23:53 - root - INFO - Scraped 51 products from search results
+2026-01-01 22:23:53 - root - INFO - ============================================================
+2026-01-01 22:23:53 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:23:53 - root - INFO - ============================================================
+2026-01-01 22:23:53 - root - INFO - total_scraped: 51
+2026-01-01 22:23:53 - root - INFO - duplicates_skipped: 0
+2026-01-01 22:23:53 - root - INFO - invalid_records: 0
+2026-01-01 22:23:53 - root - INFO - pages_processed: 1
+2026-01-01 22:23:53 - root - INFO - errors: 0
+2026-01-01 22:23:53 - root - INFO - ============================================================
+2026-01-01 22:23:53 - root - INFO - ============================================================
+2026-01-01 22:23:53 - root - INFO - Scraping completed successfully
+2026-01-01 22:23:53 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 22:23:53 - root - INFO - ============================================================
+2026-01-01 22:26:46 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2026_january_01.log
+2026-01-01 22:26:46 - root - INFO - ============================================================
+2026-01-01 22:26:46 - root - INFO - Starting scraper for: realcanadiansuperstore
+2026-01-01 22:26:46 - root - INFO - ============================================================
+2026-01-01 22:26:46 - root - INFO - Search mode: query='whole milk', max_pages=10
+2026-01-01 22:26:46 - root - INFO - Searching for: whole milk
+2026-01-01 22:26:46 - root - INFO - Scraping category page 1: /search?search-bar=whole milk&page=1
+2026-01-01 22:26:52 - root - INFO - Found 15 products in component 0
+2026-01-01 22:26:52 - root - INFO - Found 35 products in component 2
+2026-01-01 22:26:52 - root - INFO - Batch saved 50 records
+2026-01-01 22:26:52 - root - INFO - Page 1: Saved 50/50 products
+2026-01-01 22:26:52 - root - INFO - No more pages available (hasMore=False)
+2026-01-01 22:26:52 - root - INFO - Scraped 50 products from search results
+2026-01-01 22:26:52 - root - INFO - ============================================================
+2026-01-01 22:26:52 - root - INFO - SCRAPING STATISTICS
+2026-01-01 22:26:52 - root - INFO - ============================================================
+2026-01-01 22:26:52 - root - INFO - total_scraped: 50
+2026-01-01 22:26:52 - root - INFO - duplicates_skipped: 0
+2026-01-01 22:26:52 - root - INFO - invalid_records: 0
+2026-01-01 22:26:52 - root - INFO - pages_processed: 1
+2026-01-01 22:26:52 - root - INFO - errors: 0
+2026-01-01 22:26:52 - root - INFO - ============================================================
+2026-01-01 22:26:52 - root - INFO - ============================================================
+2026-01-01 22:26:52 - root - INFO - Scraping completed successfully
+2026-01-01 22:26:52 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2026-01-01 22:26:52 - root - INFO - ============================================================

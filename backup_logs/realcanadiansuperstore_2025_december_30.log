@@ -1,0 +1,502 @@
+2025-12-30 11:32:20 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\realcanadiansuperstore_2025_december_30.log
+2025-12-30 11:32:20 - root - INFO - ============================================================
+2025-12-30 11:32:20 - root - INFO - Starting scraper for: realcanadiansuperstore
+2025-12-30 11:32:20 - root - INFO - ============================================================
+2025-12-30 11:32:20 - root - INFO - Search mode: query='milk', max_pages=None
+2025-12-30 11:32:20 - root - INFO - Searching for: milk
+2025-12-30 11:32:20 - root - INFO - Scraping category page 1: /search?search-bar=milk&page=1
+2025-12-30 11:32:26 - root - INFO - Found 15 products in component 0
+2025-12-30 11:32:26 - root - INFO - Found 38 products in component 2
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - WARNING - Failed to normalize product: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 419, in scrape_category
+    record = self._normalize_product_from_next_data(product_data, paginated_url)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\realcanadiansuperstore.py", line 320, in _normalize_product_from_next_data
+    return ProductRecord(
+           ^^^^^^^^^^^^^^
+TypeError: ProductRecord.__init__() missing 1 required positional argument: 'query_category'
+2025-12-30 11:32:26 - root - INFO - Page 1: Saved 0/53 products
+2025-12-30 11:32:26 - root - INFO - No more pages available
+2025-12-30 11:32:26 - root - INFO - Scraped 0 products from search results
+2025-12-30 11:32:26 - root - INFO - ============================================================
+2025-12-30 11:32:26 - root - INFO - SCRAPING STATISTICS
+2025-12-30 11:32:26 - root - INFO - ============================================================
+2025-12-30 11:32:26 - root - INFO - total_scraped: 0
+2025-12-30 11:32:26 - root - INFO - duplicates_skipped: 0
+2025-12-30 11:32:26 - root - INFO - invalid_records: 0
+2025-12-30 11:32:26 - root - INFO - pages_processed: 0
+2025-12-30 11:32:27 - root - INFO - errors: 0
+2025-12-30 11:32:27 - root - INFO - ============================================================
+2025-12-30 11:32:27 - root - INFO - ============================================================
+2025-12-30 11:32:27 - root - INFO - Scraping completed successfully
+2025-12-30 11:32:27 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\realcanadiansuperstore\realcanadiansuperstore_products.jsonl
+2025-12-30 11:32:27 - root - INFO - ============================================================

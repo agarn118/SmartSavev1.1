@@ -1,0 +1,34 @@
+{
+  "site_slug": "safeway",
+  "store_name": "Safeway",
+  "base_url": "https://www.safeway.ca",
+  "search_url_pattern": "/search",
+  "min_delay_seconds": 5.0,
+  "max_delay_seconds": 8.0,
+  "max_requests_per_minute": 10,
+  "max_retries": 3,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "store_id": null,
+  "store_postal_code": "T4B 2B8",
+  "store_name_filter": "Airdrie",
+  "store_address_hint": "505 Main St N",
+  "example_urls": {
+    "category": "/shop/aisles/dairy-eggs",
+    "search": "/search?q=milk",
+    "product": "/product/milk-2-4l/12345"
+  },
+  "notes": [
+    "Updated URL patterns - old /shop/search-results.html URLs are deprecated",
+    "Now uses /search?q= pattern",
+    "Requires JavaScript rendering (use Playwright)",
+    "Next.js React app with server-side rendering",
+    "Store selection affects pricing - set store_id if needed",
+    "Moderate robots.txt restrictions",
+    "Adobe Experience Manager backend",
+    "Same platform as Sobeys (Sobeys network)"
+  ],
+  "store_selection": {
+    "info": "Store ID can be found by inspecting localStorage or cookies after selecting a store on the website",
+    "example_store_id": "12345"
+  }
+}

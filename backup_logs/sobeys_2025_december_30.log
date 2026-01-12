@@ -1,0 +1,91 @@
+2025-12-30 11:29:54 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\sobeys_2025_december_30.log
+2025-12-30 11:29:54 - root - INFO - ============================================================
+2025-12-30 11:29:54 - root - INFO - Starting scraper for: sobeys
+2025-12-30 11:29:54 - root - INFO - ============================================================
+2025-12-30 11:29:54 - root - INFO - Search mode: query='milk', max_pages=None
+2025-12-30 11:29:54 - root - INFO - Searching for: milk
+2025-12-30 11:30:00 - root - INFO - Launching stealth browser (headless=True)...
+2025-12-30 11:30:01 - root - INFO - Stealth browser launched successfully
+2025-12-30 11:30:01 - root - INFO - Starting Google navigation for 'sobeys'...
+2025-12-30 11:30:01 - root - INFO - Loading Google homepage...
+2025-12-30 11:30:04 - root - WARNING - Google CAPTCHA detected! Skipping Google navigation...
+2025-12-30 11:30:04 - root - INFO - Google navigation failed or was skipped, using direct navigation...
+2025-12-30 11:30:04 - root - INFO - Navigating directly to: https://www.sobeys.com
+2025-12-30 11:30:37 - root - ERROR - Error dismissing site popups: Timeout 10000ms exceeded.
+Traceback (most recent call last):
+  File "C:\Users\ashto\Desktop\first_claude\test_claude\scrapers\sites\safeway.py", line 528, in _dismiss_site_popups
+    page.wait_for_load_state('networkidle', timeout=10000)
+  File "C:\Users\ashto\Desktop\First_claude\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 9148, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+  File "C:\Users\ashto\Desktop\First_claude\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\First_claude\.venv\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\First_claude\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashto\Desktop\First_claude\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+2025-12-30 11:30:37 - root - INFO - Selecting store: Airdrie
+2025-12-30 11:31:05 - root - WARNING - Could not find store selector button
+2025-12-30 11:31:05 - root - INFO - Attempting to continue without explicit store selection...
+2025-12-30 11:31:06 - root - INFO - Looking for search box...
+2025-12-30 11:31:11 - root - INFO - Found search input: input[placeholder*="Search" i]
+2025-12-30 11:31:11 - root - INFO - Typing search query (attempt 1)...
+2025-12-30 11:31:15 - root - INFO - Search submitted successfully: https://www.sobeys.com/?query=milk&tab=products
+2025-12-30 11:31:15 - root - INFO - Waiting for search results to render...
+2025-12-30 11:31:15 - root - INFO - Waiting for products: [data-component="product-tile"]
+2025-12-30 11:32:00 - root - INFO - Waiting for products: .product-tile
+2025-12-30 11:32:45 - root - INFO - Waiting for products: .product-card
+2025-12-30 11:33:30 - root - INFO - Waiting for products: [class*="ProductTile"]
+2025-12-30 11:34:15 - root - INFO - Waiting for products: [data-testid*="product"]
+2025-12-30 11:34:15 - root - INFO - Found 1 elements matching [data-testid*="product"]
+2025-12-30 11:34:15 - root - INFO - Products successfully loaded! Found 1 items
+2025-12-30 11:34:17 - root - INFO - Search complete: https://www.sobeys.com/?query=milk&tab=products
+2025-12-30 11:34:17 - root - INFO - Page diagnosis:
+2025-12-30 11:34:17 - root - INFO -   URL: https://www.sobeys.com/?query=milk&tab=products
+2025-12-30 11:34:17 - root - INFO -   Title: Canada's Family Grocery Store | Sobeys Inc.
+2025-12-30 11:34:17 - root - INFO -   Found 1 elements: '[data-testid*="product"]'
+2025-12-30 11:34:17 - root - INFO -   Has __NEXT_DATA__: False
+2025-12-30 11:34:17 - root - INFO - Extracting from page: https://www.sobeys.com/?query=milk&tab=products
+2025-12-30 11:34:17 - root - INFO - Page title: Canada's Family Grocery Store | Sobeys Inc.
+2025-12-30 11:34:17 - root - INFO - Fallback to DOM scraping...
+2025-12-30 11:34:17 - root - INFO - Found 1 elements with selector: [data-testid*="product"]
+2025-12-30 11:34:18 - root - INFO - Successfully extracted product: Products(2498) - $None
+2025-12-30 11:34:18 - root - INFO - Extracted 1 from 1 DOM elements
+2025-12-30 11:34:18 - root - INFO - Batch saved 1 records
+2025-12-30 11:34:18 - root - INFO - Page 1: Saved 1/1
+2025-12-30 11:34:18 - root - INFO - Browser closed
+2025-12-30 11:34:18 - root - INFO - Scraped 1 products from search results
+2025-12-30 11:34:18 - root - INFO - ============================================================
+2025-12-30 11:34:18 - root - INFO - SCRAPING STATISTICS
+2025-12-30 11:34:18 - root - INFO - ============================================================
+2025-12-30 11:34:18 - root - INFO - total_scraped: 1
+2025-12-30 11:34:18 - root - INFO - duplicates_skipped: 0
+2025-12-30 11:34:18 - root - INFO - invalid_records: 0
+2025-12-30 11:34:18 - root - INFO - pages_processed: 1
+2025-12-30 11:34:18 - root - INFO - errors: 0
+2025-12-30 11:34:18 - root - INFO - ============================================================
+2025-12-30 11:34:18 - root - INFO - ============================================================
+2025-12-30 11:34:18 - root - INFO - Scraping completed successfully
+2025-12-30 11:34:18 - root - INFO - Output: C:\Users\ashto\Desktop\First_claude\test_claude\data\raw\sobeys\sobeys_products.jsonl
+2025-12-30 11:34:18 - root - INFO - ============================================================
+2025-12-30 11:34:18 - root - INFO - Browser closed
+2025-12-30 11:51:38 - root - INFO - Logging initialized. Writing to C:\Users\ashto\Desktop\First_claude\test_claude\logs\sobeys_2025_december_30.log
+2025-12-30 11:51:38 - root - INFO - ============================================================
+2025-12-30 11:51:38 - root - INFO - Starting scraper for: sobeys
+2025-12-30 11:51:38 - root - INFO - ============================================================
+2025-12-30 11:51:38 - root - INFO - Search mode: query='milk', max_pages=None
+2025-12-30 11:51:38 - root - INFO - Searching for: milk
+2025-12-30 11:51:46 - root - INFO - Algolia returned 48 hits for 'milk' (page 1)
+2025-12-30 11:51:46 - root - INFO - Batch saved 7 records
+2025-12-30 11:51:46 - root - INFO - Algolia page 1: Saved 7/48 products
+2025-12-30 11:51:55 - root - INFO - Algolia returned 48 hits for 'milk' (page 2)
+2025-12-30 11:51:55 - root - INFO - Batch saved 8 records
+2025-12-30 11:51:55 - root - INFO - Algolia page 2: Saved 8/48 products
+2025-12-30 11:52:05 - root - INFO - Algolia returned 48 hits for 'milk' (page 3)
+2025-12-30 11:52:05 - root - INFO - Batch saved 1 records
+2025-12-30 11:52:05 - root - INFO - Algolia page 3: Saved 1/48 products

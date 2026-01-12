@@ -1,0 +1,14 @@
+{
+  "seen_keys": [
+    "sobeys:041570052723",
+    "sobeys:041570059609"
+  ],
+  "stats": {
+    "total_scraped": 2,
+    "duplicates_skipped": 478,
+    "invalid_records": 0,
+    "pages_processed": 10,
+    "errors": 0
+  },
+  "last_updated": "2026-01-02T05:26:34.599575Z"
+}
