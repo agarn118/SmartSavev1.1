@@ -1,0 +1,78 @@
+{
+    "site_slug": "walmart_canada",
+    "store_name": "Walmart Canada",
+    "base_url": "https://www.walmart.ca",
+    "robots_txt_url": "https://www.walmart.ca/robots.txt",
+
+    "sitemaps": {
+        "product_1p_en": "https://www.walmart.ca/sitemap-product-1p-en.xml",
+        "product_3p_en": "https://www.walmart.ca/sitemap-product-3p-en.xml",
+        "categories": "https://www.walmart.ca/sitemap-categories.xml"
+    },
+
+    "rate_limiting": {
+        "min_delay_seconds": 2.0,
+        "max_delay_seconds": 5.0,
+        "max_requests_per_minute": 12
+    },
+
+    "browser": {
+        "headless": true,
+        "viewport_width": 1920,
+        "viewport_height": 1080,
+        "locale": "en-CA",
+        "timezone": "America/Toronto",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    },
+
+    "warmup": {
+        "enabled": true,
+        "pages": [
+            "/",
+            "/en/grocery"
+        ]
+    },
+
+    "anti_detection": {
+        "session_warmup": true,
+        "random_delays": true,
+        "stealth_mode": true
+    },
+
+    "extraction": {
+        "use_next_data_json": true,
+        "fallback_to_dom": true
+    },
+
+    "output": {
+        "format": "jsonl",
+        "include_raw_source": false
+    },
+
+    "demo": {
+        "max_products": 20,
+        "categories_to_scrape": ["grocery", "household"]
+    },
+
+    "captcha_solver": {
+        "enabled": true,
+        "primary_provider": "twocaptcha",
+        "fallback_provider": "capsolver",
+        "providers": {
+            "twocaptcha": {
+                "api_key": "",
+                "timeout_seconds": 120,
+                "polling_interval_seconds": 5
+            },
+            "capsolver": {
+                "api_key": "",
+                "timeout_seconds": 120
+            }
+        },
+        "max_solve_attempts": 3,
+        "retry_delay_seconds": 5
+    },
+
+    "max_backups": 5,
+    "compress_backups": false
+}

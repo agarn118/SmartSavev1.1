@@ -5,7 +5,7 @@ lxml>=4.9.0
 numpy>=1.24.0
 httpx>=0.27.0
 
-# Playwright (for Safeway/Sobeys - JavaScript rendering)
+# Playwright (for Safeway/Sobeys/Walmart - JavaScript rendering)
 playwright>=1.40.0
 
 # TLS Fingerprint Bypass (for anti-bot evasion)
